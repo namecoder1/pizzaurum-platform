@@ -1,0 +1,15 @@
+{
+  "name": "pizzaurum-platform",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build --workspace=email",
+    "build:email": "npm run build --workspace=email"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

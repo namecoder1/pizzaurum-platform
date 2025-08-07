@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd apps/email && npm run build",
+  "outputDirectory": "apps/email/.next",
+  "framework": "nextjs",
+  "installCommand": "npm install",
+  "rootDirectory": "apps/email",
+  "functions": {
+    "app/api/**/*.ts": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}
