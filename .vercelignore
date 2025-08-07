@@ -1,7 +1,5 @@
-# Ignore everything except the email app
+# Ignore studio app only
 apps/studio/
-apps/*/
-!apps/email/
 
 # Node modules and build artifacts
 node_modules/
